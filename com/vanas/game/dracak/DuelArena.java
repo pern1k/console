@@ -85,9 +85,11 @@ public class DuelArena {
 
             if (kuba.criticalDamage != 0) {
                 System.out.println("Kuba critnul Dana za " + kuba.getCriticalDamage());
+                danovoZivoty -= kuba.getCriticalDamage() - danObrana;
             }
             if (dan.criticalDamage != 0) {
                 System.out.println("Dan critnul Kubu za " + dan.getCriticalDamage());
+                kubovoZivoty -= dan.getCriticalDamage() - kubaObrana;
             }
 
             System.out.println("Kuba " + kubovoZivoty);

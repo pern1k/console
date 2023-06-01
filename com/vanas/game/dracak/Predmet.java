@@ -24,9 +24,9 @@ public class Predmet {
 
     public static Predmet[] listZbrani() {
         Predmet[] zbrane = new Predmet[5];
-        zbrane[0] = new Predmet("Klacek", 2, 5, 5, 0, 0);
-        zbrane[1] = new Predmet("Kudla", 4, 10, 10, 0, 0);
-        zbrane[2] = new Predmet("Kyj", 7, 10, 7, 0, 0);
+        zbrane[0] = new Predmet("Klacek", 5, 5, 5, 0, 0);
+        zbrane[1] = new Predmet("Kudla", 6, 10, 10, 0, 0);
+        zbrane[2] = new Predmet("Kyj", 8, 10, 7, 0, 0);
         zbrane[3] = new Predmet("Mec", 6, 15, 10, 0, 0);
         zbrane[4] = new Predmet("Kopi", 5, 30, 15, 0, 0);
         return zbrane;
@@ -35,19 +35,19 @@ public class Predmet {
     public static Predmet[] listZbroje() {
         Predmet[] zbrane = new Predmet[5];
         zbrane[0] = new Predmet("Sandal", 0, 0, 0, 0, 1);
-        zbrane[1] = new Predmet("Rukavky", 0, 0, 0, 0, 3);
-        zbrane[2] = new Predmet("Stit", 0, 0, 0, 0, 5);
-        zbrane[3] = new Predmet("Konopna kape", 0, 0, 0, 0, 9);
-        zbrane[4] = new Predmet("Mlynarska tunika", 0, 0, 0, 0, 4);
+        zbrane[1] = new Predmet("Rukavky", 0, 0, 0, 0, 2);
+        zbrane[2] = new Predmet("Stit", 0, 0, 0, 0, 3);
+        zbrane[3] = new Predmet("Konopna kape", 0, 0, 0, 0, 2);
+        zbrane[4] = new Predmet("Mlynarska tunika", 0, 0, 0, 0, 1);
         return zbrane;
     }
 
     public static Predmet[] listItemu() {
         Predmet[] zbrane = new Predmet[5];
         zbrane[0] = new Predmet("Face tattoo", 0, 10, 0, 3, 1);
-        zbrane[1] = new Predmet("Blunt osviceni", 0, 15, 0, 2, 5);
+        zbrane[1] = new Predmet("Blunt osviceni", 0, 15, 0, 2, 4);
         zbrane[2] = new Predmet("Drticka stesti", 0, 20, 0, 3, 1);
-        zbrane[3] = new Predmet("Hodinky osudu", 0, 5, 0, -4, -8);
+        zbrane[3] = new Predmet("Hodinky osudu", 0, 5, 0, -2, -3);
         zbrane[4] = new Predmet("Dohasinajici cirkurka", 0, 5, 0, 6, -1);
         return zbrane;
     }
